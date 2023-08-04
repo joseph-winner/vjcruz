@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-hero-image{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.login-hero-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.back-layer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.main-container{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.j-between{
+    justify-content: space-between;
+}
+
+.login-logo img{
+    width: 80px;
+    margin-left: 30px;
+}
+
+.loginnav{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.login-btn{
+    margin-right: 30px;
+}
+
+.login-body-desc{
+    margin-left: 10%;
+    margin-top: 90px;
+    color: #fff;
+    line-height: 2;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+.login-form{
+    margin-left: 10%;
+    margin-top: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form input{
+    outline: none;
+    padding: 8px;
+    margin-left: 15px;
+}
+
+.login-form .getStarted{
+    background: none;
+    border: none;
+    outline: none;
+    background-color: maroon;
+    color: #fff;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.SignUp{
+    flex-wrap: nowrap;
+    background: none;
+    border: none;
+    outline: none;
+    background-color: maroon;
+    color: #fff;
+    padding: 5px;
+    font-weight: 500;
+}
