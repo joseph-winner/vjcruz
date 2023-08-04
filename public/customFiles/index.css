@@ -78,6 +78,7 @@
     outline: none;
     padding: 8px;
     margin-left: 15px;
+    width: 95%;
 }
 
 .login-form .getStarted{
@@ -86,7 +87,7 @@
     outline: none;
     background-color: maroon;
     color: #fff;
-    padding: 5px;
+    padding: 10px;
     font-weight: 500;
 }
 
@@ -97,8 +98,15 @@
     outline: none;
     background-color: maroon;
     color: #fff;
-    padding: 5px;
+    padding: 10px;
     font-weight: 500;
+}
+
+.login-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 
@@ -108,7 +116,7 @@
     border: none;
     background-color: maroon;
     color: #fff;
-    padding: 6px;
+    padding: 5px;
     font-weight: 500;
 }
 
@@ -130,9 +138,11 @@
     }
 
     .login-form{
-        flex-wrap: wrap;
+        flex-direction: column;
         gap: 10px;
         margin-bottom: 60px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .login-hero-image{
@@ -145,7 +155,15 @@
         margin-top: 20px;
     
     }
+    .login-body-desc h1{
+        font-size: 18px;
+    }
+    .login-body-desc h3{
+        font-size: 14px;
+    }
     .login-body-desc{
-        margin-top: 20px;
+        margin-top: 60px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }
